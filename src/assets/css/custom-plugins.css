@@ -1,0 +1,210 @@
+/* Toastify */
+.Toastify .fancy-progress-bar {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.Toastify .danger{
+  background: red;
+}
+
+
+
+.Toastify .Toastify__toast {
+  background-color: #02b290;
+  font-family: 'Inter', sans-serif;
+}
+.Toastify .Toastify__toast.danger {
+  background-color: #dc2626;
+  font-family: 'Inter', sans-serif;
+}
+.Toastify .Toastify__toast .Toastify__toast-body,
+.Toastify .Toastify__toast .Toastify__close-button {
+  color: #ffffff;
+}
+.Toastify .Toastify__toast .Toastify__close-button {
+  opacity: 0.7;
+}
+.Toastify .Toastify__toast .Toastify__close-button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .Toastify .Toastify__toast-container--top-left,
+  .Toastify .Toastify__toast-container--top-center,
+  .Toastify .Toastify__toast-container--top-right {
+    top: 66px;
+  }
+  .Toastify .Toastify__toast {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+  }
+}
+
+/* Drawer */
+.drawer .drawer-content-wrapper {
+  width: 100%;
+}
+.drawer .drawer-mask {
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .drawer .drawer-content-wrapper {
+    width: 500px;
+  }
+}
+
+/* pagination */
+.rc-pagination.order-table-pagination .rc-pagination-prev,
+.rc-pagination.order-table-pagination .rc-pagination-next {
+  height: 30px;
+  width: 30px;
+  padding: 8px 5px;
+  background-color: #f3f6f9;
+  border-radius: 3px;
+}
+.rc-pagination.order-table-pagination .rc-pagination-prev {
+  margin-right: 15px;
+}
+.rc-pagination.order-table-pagination .rc-pagination-next {
+  margin-left: 15px;
+}
+.rc-pagination.order-table-pagination li.rc-pagination-disabled {
+  opacity: 0.3;
+}
+.rc-pagination.order-table-pagination li {
+  height: auto;
+  min-width: auto;
+  border: 0;
+  border-radius: 0;
+}
+.rc-pagination.order-table-pagination li svg {
+  width: 100%;
+}
+.rc-pagination.order-table-pagination li.rc-pagination-item-active a {
+  opacity: 1;
+}
+.rc-pagination.order-table-pagination li a {
+  padding: 0;
+  color: rgba(0, 0, 0, 1);
+  opacity: 0.7;
+}
+
+/* Others */
+.dv-star-rating > label {
+  margin-right: 4px;
+}
+@media (min-width: 1280px) {
+    .minimal-main-content,
+    .trendy-main-content {
+        width: calc(100% - 420px);
+    }
+    .banner-main-content {
+        width: calc(100% - 600px);
+    }
+    .popular-main-content {
+        width: calc(100% - 300px);
+    }
+}
+/*React Lightbox*/
+button.yarl__thumbnails_thumbnail {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+button.yarl__thumbnails_thumbnail_active{
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.delivrybxmain {
+  border: 1px solid #CEC9C9;
+  border-radius: 3px;
+  background: #fff;
+  /* padding: 30px 10px 0 10px; */
+  width: 242px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a {
+  display: inline-block;
+}
+
+.delivrybxmain:hover {
+  border: none;
+  box-shadow: 1px 6px 20px 19px #F2ECF1;
+}
+
+#formFileLg {
+  display: none;
+}
+
+.file label {
+  color: #8C8888;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px solid #CEC9C9;
+  background: #FEE8F4;
+  width: 115px;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file {
+  width: 100%;
+  height: 46px;
+  border-radius: 3px;
+  border: 1px solid #CEC9C9;
+  background: #FFF;
+}
+
+.aboutyoucagnizeheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.abouthiring_inner {
+  padding-top: 56px;
+  border-top: 1px solid #D9D9D9;
+}
+
+.clientcntnt::before {
+  content: "";
+  position: absolute;
+  top: -72px;
+  bottom: 0;
+  left: -95px;
+  right: 0;
+  /* background: url(./images/comaone.png); */
+  background-repeat: no-repeat;
+}
+
+.secinverted {
+  position: absolute;
+  bottom: -42px;
+  right: -74px;
+}
+
+.reviewone img {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+}
+.contact {padding: 40px 0 148px 0;}
+
+
+
+@media (max-width:1280px) {
+  .delivrybxmain {
+      margin-bottom: 30px;
+  }
+}
